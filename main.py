@@ -82,8 +82,6 @@ def processar_dados_aula_v1(dados_aula_v1: pd.DataFrame) -> pd.DataFrame:
 
     return df_norm
 
-import pandas as pd
-
 def processar_dados_titanic(df_titanic: pd.DataFrame) -> pd.DataFrame:
     """
     Realiza pré‐processamento do dataset Titanic:
