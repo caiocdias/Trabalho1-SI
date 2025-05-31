@@ -1,0 +1,153 @@
+# ===============================
+# 1. MACROS/BÁSICOS DE SISTEMA
+# ===============================
+# Arquivos temporários comuns de sistemas macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ícones de volume montado no macOS
+.VolumeIcon.icns
+
+# Pasta de snapshot do editor vim (se aplicável)
+.*.s[a-v][a-z]
+
+# ===============================
+# 2. ARQUIVOS E PASTAS DO PYTHON
+# ===============================
+# Bytecode Python (reconstruído automaticamente)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPython Notebook (checkpoints)
+.ipynb_checkpoints/
+
+# Diretórios de ambiente virtual
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.venv/
+
+# pyenv (arquivo de versionamento do interpretador)
+.python-version
+
+# Envs de ferramentas modernas (e.g., PDM, Poetry, Pipenv)
+__pypackages__/
+Pipfile.lock
+poetry.lock
+
+# Ambientes criados com pyflow, PDM etc.
+pyflow.lock
+.cache/pdm/
+
+# Arquivos de configuração sensíveis (dotenv)
+.env
+.venv.env
+
+# Celery (arquivo de agendamento de tarefas)
+celerybeat-schedule
+celerybeat.pid
+
+# Sphinx (arquivos de build da documentação)
+docs/_build/
+
+# PyBuilder artifacts
+target/
+
+# Spyder (IDE científico) project settings
+.spyderproject
+
+# Rope (refactoring) project settings
+.ropeproject
+
+# Taurus (ferramenta de testes) ignore
+**/taurus.db
+
+# ===============================
+# 3. FERRAMENTAS DE TESTE E STATIC ANALYSIS
+# ===============================
+# Cache de ferramentas de análise estática:
+.mypy_cache/
+.dmypy.json
+.dmypy/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Arquivos de configuração do Cursor AI (se aplicável)
+.cursorignore
+.cursorindexingignore
+
+# ===============================
+# 4. ARTEFATOS DE COMPILAÇÃO E LOGS
+# ===============================
+# Logs gerais
+*.log
+
+# Arquivos de build (p.e., C extensions, cython debug)
+build/
+dist/
+*.egg-info/
+.eggs/
+*.eggs/
+cython_debug/
+
+# ===============================
+# 5. CONFIGURAÇÕES DO JETBRAINS (PyCharm, IntelliJ, etc.)
+# ===============================
+# Ignora todos os arquivos gerados pela pasta .idea/ EXCETO os que podem ser úteis:
+# - Mantenha controlados apenas: .idea/misc.xml, .idea/modules.xml, .idea/vcs.xml
+# - Ignora o resto para evitar arquivos de workspace com credenciais ou dados locais.
+
+# Diretório inteiro (forma mais estrita; comente se quiser manter apenas alguns arquivos)
+# .idea/
+
+# Alternativa: ignorar somente arquivos sensíveis ou de alto churn
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries/
+.idea/**/shelf/
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries/
+.idea/**/mongoSettings.xml
+
+# Arquivos de projeto baseados em arquivo (IDEA older formats)
+*.iws
+*.iml
+
+# Pasta de saída de build (geral para IDEs JetBrains de outros projetos)
+out/
+
+# ===============================
+# 6. OUTROS IDEs/EDITORS (opcionais, caso utilize)
+# ===============================
+# Visual Studio Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Vim swap files
+*.swp
+*.swo
+
+# ===============================
+# 7. ARQUIVOS SENSÍVEIS ADICIONAIS (OPCIONAL)
+# ===============================
+# Arquivos de chaves ou certificados (exemplos)
+*.pem
+*.key
+*.crt
