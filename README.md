@@ -35,8 +35,8 @@ O objetivo deste trabalho é demonstrar as etapas de limpeza e transformação d
 
 1. Clone este repositório em sua máquina:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DA_PASTA_DO_REPOSITORIO>
+   git clone https://github.com/caiocdias/Trabalho1-SI
+   cd Trabalho1-SI
    ```
 2. Crie e ative um ambiente virtual (opcional, porém recomendado):
    ```bash
